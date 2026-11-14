@@ -1,0 +1,27 @@
+SỔ TAY KIỂM ĐIỂM, XẾP LOẠI 2026 – ĐẢNG BỘ XÃ NHU GIA
+BẢN DÙNG CHO IPHONE, IPAD (ỨNG DỤNG WEB, DÙNG ĐƯỢC KHI KHÔNG CÓ MẠNG)
+Tác giả: Nguyễn Văn Dũng – Phó Trưởng Ban Xây dựng Đảng Đảng ủy xã Nhu Gia. ĐT/Zalo: 0919 038070.
+Lưu hành nội bộ Đảng bộ xã Nhu Gia; cung cấp miễn phí, không vì mục đích thương mại.
+
+I. VÌ SAO KHÔNG CÓ FILE CÀI ĐẶT RIÊNG NHƯ ANDROID?
+Apple chỉ cho cài ứng dụng trên iPhone, iPad qua App Store, TestFlight hoặc ứng dụng được ký bằng tài khoản nhà phát triển Apple (trả phí, giới hạn số máy). Vì vậy bản cho iPhone, iPad được làm dưới dạng "ứng dụng web": sau khi "Thêm vào Màn hình chính" sẽ có biểu tượng KĐ 2026, mở toàn màn hình như ứng dụng và dùng được khi không có mạng. Bản này dùng được cả trên điện thoại Android và máy tính.
+
+II. BAN XÂY DỰNG ĐẢNG ĐƯA LÊN MẠNG (LÀM 01 LẦN)
+1. Giải nén file .zip, được thư mục "KiemDiem2026NhuGia" (giữ nguyên tên thư mục, tên file và thư mục con "forms").
+2. Đưa toàn bộ thư mục lên một địa chỉ web có "https://" (bắt buộc https), ví dụ: chuyên mục trên Trang thông tin điện tử của xã, hoặc dịch vụ lưu trữ trang tĩnh miễn phí (GitHub Pages, Cloudflare Pages, Netlify…).
+3. Mở thử địa chỉ, ví dụ: https://<ten-mien>/KiemDiem2026NhuGia/ – thấy màn hình "Sổ tay Kiểm điểm, xếp loại 2026" là được.
+4. Gửi địa chỉ này cho các đồng chí trong Đảng bộ qua nhóm Zalo nội bộ. Không đăng công khai rộng rãi.
+
+III. MỖI ĐỒNG CHÍ CÀI TRÊN IPHONE, IPAD
+1. Mở bằng trình duyệt Safari (không dùng Zalo, Facebook mở trực tiếp): bấm vào đường dẫn → chọn "Mở trong Safari" hoặc sao chép địa chỉ dán vào Safari.
+2. Bấm nút Chia sẻ (ô vuông có mũi tên hướng lên).
+3. Chọn "Thêm vào Màn hình chính" → bấm "Thêm".
+4. Từ nay mở công cụ bằng biểu tượng "KĐ 2026" trên màn hình. Lần đầu cần có mạng để tải toàn bộ nội dung và biểu mẫu; sau đó dùng được khi không có mạng.
+
+Điện thoại Android: mở địa chỉ bằng Chrome → bấm dấu ba chấm → "Cài đặt ứng dụng" hoặc "Thêm vào màn hình chính" (hoặc cài file .apk như trước).
+
+IV. TẢI BIỂU MẪU TRÊN IPHONE, IPAD
+Bấm "Tải về" ở biểu mẫu cần dùng → biểu mẫu mở ra để xem → bấm nút Chia sẻ → "Lưu vào Tệp" hoặc mở bằng Word, Excel, WPS Office để soạn thảo.
+
+V. CẬP NHẬT PHIÊN BẢN MỚI
+Ban Xây dựng Đảng thay thư mục trên mạng bằng thư mục của phiên bản mới (giữ nguyên địa chỉ). Máy của các đồng chí tự cập nhật khi mở công cụ lúc có mạng (nếu chưa thấy thay đổi, đóng hẳn công cụ rồi mở lại).

@@ -1,0 +1,24 @@
+{
+ "name": "Sổ tay Kiểm điểm, xếp loại 2026 – Đảng bộ xã Nhu Gia",
+ "short_name": "KĐ 2026 Nhu Gia",
+ "description": "Lưu hành nội bộ Đảng bộ xã Nhu Gia; miễn phí, không vì mục đích thương mại. Tác giả: Nguyễn Văn Dũng.",
+ "lang": "vi",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#b3141b",
+ "theme_color": "#b3141b",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
