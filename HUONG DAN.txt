@@ -16,7 +16,7 @@ III. MỖI ĐỒNG CHÍ CÀI TRÊN IPHONE, IPAD
 1. Mở bằng trình duyệt Safari (không dùng Zalo, Facebook mở trực tiếp): bấm vào đường dẫn → chọn "Mở trong Safari" hoặc sao chép địa chỉ dán vào Safari.
 2. Bấm nút Chia sẻ (ô vuông có mũi tên hướng lên).
 3. Chọn "Thêm vào Màn hình chính" → bấm "Thêm".
-4. Từ nay mở công cụ bằng biểu tượng "KĐ 2026" trên màn hình. Lần đầu cần có mạng để tải toàn bộ nội dung và biểu mẫu; sau đó dùng được khi không có mạng.
+4. Từ nay mở ứng dụng bằng biểu tượng "KĐ 2026" trên màn hình. Lần đầu cần có mạng để tải toàn bộ nội dung và biểu mẫu; sau đó dùng được khi không có mạng.
 
 Điện thoại Android: mở địa chỉ bằng Chrome → bấm dấu ba chấm → "Cài đặt ứng dụng" hoặc "Thêm vào màn hình chính" (hoặc cài file .apk như trước).
 
@@ -24,4 +24,5 @@ IV. TẢI BIỂU MẪU TRÊN IPHONE, IPAD
 Bấm "Tải về" ở biểu mẫu cần dùng → biểu mẫu mở ra để xem → bấm nút Chia sẻ → "Lưu vào Tệp" hoặc mở bằng Word, Excel, WPS Office để soạn thảo.
 
 V. CẬP NHẬT PHIÊN BẢN MỚI
-Ban Xây dựng Đảng thay thư mục trên mạng bằng thư mục của phiên bản mới (giữ nguyên địa chỉ). Máy của các đồng chí tự cập nhật khi mở công cụ lúc có mạng (nếu chưa thấy thay đổi, đóng hẳn công cụ rồi mở lại).
+Phiên bản 2.0 (từ ngày 19/11/2026) cập nhật theo Công văn số 1270-CV/ĐU của Ban Thường vụ Đảng ủy xã triển khai Công văn số 961-CV/TU của Ban Thường vụ Thành ủy: biểu mẫu mới (Mẫu 01, 02A, 02B, 02C; ĐU-01, ĐU-03 cập nhật), lộ trình mới, hạn gửi hồ sơ chậm nhất 27/11/2026.
+Ban Xây dựng Đảng thay thư mục trên mạng bằng thư mục của phiên bản mới (giữ nguyên địa chỉ). Máy của các đồng chí tự cập nhật khi mở ứng dụng lúc có mạng (nếu chưa thấy thay đổi, đóng hẳn ứng dụng rồi mở lại).
