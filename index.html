@@ -109,6 +109,12 @@ button.card:hover,a.card:hover{border-color:#d6a5a7;box-shadow:0 3px 10px rgba(1
 .frm .fx{flex:1;min-width:0}
 .frm .fx > b{display:block;font-size:15px;line-height:1.35}
 .frm .fx > span{display:block;font-size:13.5px;color:var(--mut);margin-top:2px}
+.frm .fx > span.fu{color:#1d4f2f;background:#eef7f0;border-radius:7px;padding:4px 7px;margin-top:5px}
+.kfbox select{display:block;width:100%;margin-top:8px;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.pbqhero{position:relative;margin-bottom:12px;border-left-color:#1e7a3c!important;background:linear-gradient(135deg,#f1fbf3,#fffbea)!important;box-shadow:0 0 0 2px #1e7a3c33}
+.pbqhero .nb{position:absolute;top:10px;right:12px;background:#c00;color:#fff;font-size:11.5px;font-weight:800;border-radius:20px;padding:2px 9px;display:inline!important;margin:0!important}
+.pbqhero > b{padding-right:52px}
+.pbqsel{margin-bottom:6px}
 .frm .fx > em{display:block;font-size:13px;color:var(--warn);font-style:normal;margin-top:3px}
 .dl{flex:0 0 auto;background:var(--red);color:#fff;border:0;border-radius:10px;padding:8px 12px;font-weight:600;font-size:14px;display:flex;align-items:center;gap:6px}
 .dl svg{width:16px;height:16px}
@@ -3355,7 +3361,7 @@ var AUTHOR_POS = "Phó Trưởng Ban Xây dựng Đảng Đảng ủy xã Nhu Gi
 var PHONE = "0919 038070";
 var PHONE_RAW = "0919038070";
 var FILE_NAME = "KiemDiem2026 NhuGia NguyenVanDung.html";
-var VERSION = "2.0 – ngày 19/11/2026 (cập nhật theo Công văn số 1270-CV/ĐU)";
+var VERSION = "2.1 – ngày 21/11/2026 (cập nhật theo Công văn số 1270-CV/ĐU; bổ sung mẫu phiếu biểu quyết xếp loại)";
 
 /* ---------- KHO BIỂU MẪU (file gốc, giữ nguyên) ---------- */
 var FORM_GROUPS = [
@@ -3943,7 +3949,7 @@ var NOIDUNG = {
 var LOINGO = [
   "Mỗi dịp cuối năm, công tác kiểm điểm, đánh giá, xếp loại chất lượng lại đặt ra cho mỗi tập thể, mỗi cá nhân rất nhiều việc: biểu mẫu nào, làm theo trình tự ra sao, hạn chót ngày nào, hồ sơ gồm những gì… Năm 2026 lại càng có nhiều điểm mới. Bộ máy vừa sắp xếp, nhiều chi bộ mới thành lập, sáp nhập, cấp trên cũng ban hành nhiều quy định, hướng dẫn mới. Trong quá trình tham mưu, Dũng hiểu được những băn khoăn, vất vả của các đồng chí, nhất là các đồng chí bí thư chi bộ và các đồng chí trực tiếp làm công tác tổng hợp ở cơ sở.",
   "Xuất phát từ tình hình thực tiễn và yêu cầu nhiệm vụ tại Đảng bộ xã, với kinh nghiệm và một ít kiến thức tích lũy được trong quá trình công tác, Dũng đã mạnh dạn xây dựng ứng dụng \"Sổ tay Kiểm điểm, xếp loại 2026\". Các đồng chí chỉ cần chọn đúng đối tượng của mình là biết ngay cần hoàn thành những biểu mẫu nào, thực hiện các bước ra sao, khi nào phải xong và gửi hồ sơ gì về Ban Xây dựng Đảng. Các biểu mẫu chính thức đều có sẵn để tải về sử dụng. Toàn bộ nội dung được xây dựng căn cứ Kế hoạch số 59-KH/ĐU, ngày 12/11/2026 của Ban Thường vụ Đảng ủy xã và các văn bản của cấp trên.",
-  "**Cập nhật ứng dụng phiên bản mới từ ngày 19/11/2026:** Ngày 18/11/2026, Ban Thường vụ Thành ủy ban hành Công văn số 961-CV/TU hướng dẫn một số nội dung kiểm điểm, đánh giá, xếp loại chất lượng năm 2026 (thay thế Mẫu 1, Mẫu 2A, Mẫu 2B, Mẫu 2C bằng Mẫu 01, Mẫu 02A, Mẫu 02B, Mẫu 02C; bổ sung nội dung kiểm điểm, quy định mới về nơi kiểm điểm, tỷ lệ “Hoàn thành xuất sắc nhiệm vụ”, số liệu làm căn cứ đánh giá và rút ngắn thời hạn). Trên cơ sở đó, ngày 19/11/2026 Ban Thường vụ Đảng ủy xã ban hành Công văn số 1270-CV/ĐU triển khai Công văn số 961-CV/TU và điều chỉnh, bổ sung một số nội dung Kế hoạch số 59-KH/ĐU. Vì vậy, **kể từ ngày 19/11/2026**, Dũng cập nhật toàn bộ ứng dụng theo văn bản mới: biểu mẫu mới, lộ trình 18 mốc công việc, hạn gửi hồ sơ **chậm nhất ngày 27/11/2026**, thẩm quyền xếp loại, nơi kiểm điểm, cách tính tỷ lệ và hồ sơ gửi cấp trên. Đề nghị các đồng chí sử dụng phiên bản mới (phiên bản 2.0), tải lại biểu mẫu mới để thực hiện; xem nhanh các điểm mới tại mục **“Điểm mới theo Công văn số 1270-CV/ĐU”** ở trang chủ.",
+  "**Cập nhật ứng dụng phiên bản mới từ ngày 19/11/2026:** Ngày 18/11/2026, Ban Thường vụ Thành ủy ban hành Công văn số 961-CV/TU hướng dẫn một số nội dung kiểm điểm, đánh giá, xếp loại chất lượng năm 2026 (thay thế Mẫu 1, Mẫu 2A, Mẫu 2B, Mẫu 2C bằng Mẫu 01, Mẫu 02A, Mẫu 02B, Mẫu 02C; bổ sung nội dung kiểm điểm, quy định mới về nơi kiểm điểm, tỷ lệ “Hoàn thành xuất sắc nhiệm vụ”, số liệu làm căn cứ đánh giá và rút ngắn thời hạn). Trên cơ sở đó, ngày 19/11/2026 Ban Thường vụ Đảng ủy xã ban hành Công văn số 1270-CV/ĐU triển khai Công văn số 961-CV/TU và điều chỉnh, bổ sung một số nội dung Kế hoạch số 59-KH/ĐU. Vì vậy, **kể từ ngày 19/11/2026**, Dũng cập nhật toàn bộ ứng dụng theo văn bản mới: biểu mẫu mới, lộ trình 18 mốc công việc, hạn gửi hồ sơ **chậm nhất ngày 27/11/2026**, thẩm quyền xếp loại, nơi kiểm điểm, cách tính tỷ lệ và hồ sơ gửi cấp trên. Đề nghị các đồng chí sử dụng phiên bản mới, tải lại biểu mẫu mới để thực hiện. Ngày 21/11/2026, ứng dụng được bổ sung **các mẫu phiếu biểu quyết xếp loại chất lượng (tham khảo)** và file Excel in phiếu, kiểm phiếu, giúp việc bỏ phiếu xếp loại ở chi bộ, đảng ủy, tập thể lãnh đạo được chặt chẽ, thống nhất; xem nhanh các điểm mới tại mục **“Điểm mới theo Công văn số 1270-CV/ĐU”** ở trang chủ.",
   "Đây là một sáng kiến nhỏ trong quá trình công tác, tham mưu thực hiện nhiệm vụ của Dũng. [[Ứng dụng lưu hành nội bộ Đảng bộ xã Nhu Gia; cung cấp miễn phí, không vì mục đích thương mại.]] Dũng chỉ mong ứng dụng góp một phần nhỏ giúp các đồng chí bớt thời gian tra cứu, đỡ vất vả hơn trong khâu chuẩn bị, để dành nhiều tâm sức hơn cho chính phần cốt lõi của kiểm điểm: tự soi, tự sửa, cùng nhau tiến bộ.",
   "Dũng xin chân thành cảm ơn sự quan tâm, tạo điều kiện của Thường trực Đảng ủy, đồng chí Trưởng ban Xây dựng Đảng, tập thể lãnh đạo, công chức Ban Xây dựng Đảng và sự động viên, chia sẻ của tất cả các đồng chí trong thời gian qua.",
   "Do thời gian xây dựng gấp và khả năng của bản thân còn hạn chế, ứng dụng chắc chắn không tránh khỏi thiếu sót. Trong quá trình sử dụng, rất mong nhận được ý kiến góp ý của các đồng chí để Dũng tiếp tục bổ sung, hoàn thiện ứng dụng, cũng như để Dũng tích lũy thêm nhiều kinh nghiệm phát triển và xây dựng thêm nhiều ứng dụng phục vụ cho công tác tại Đảng bộ xã Nhu Gia trong thời gian tới. Có điều gì chưa rõ hoặc cần góp ý, các đồng chí cứ gọi điện hoặc nhắn Zalo trực tiếp cho Dũng theo số **0919 038070**. Dũng luôn sẵn lòng lắng nghe và hỗ trợ.",
@@ -4383,6 +4389,137 @@ FAQ.unshift(["Đơn vị còn trong tỷ lệ 20% thì có được đề xuất
 
 var FLAG_SMALL = "<svg class=\"lnflag\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"K\u0110 2026\"><defs><linearGradient id=\"kdg3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d81e26\"/><stop offset=\"1\" stop-color=\"#9a0e15\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" rx=\"22\" fill=\"url(#kdg3)\"/><rect x=\"6\" y=\"6\" width=\"88\" height=\"88\" rx=\"17\" fill=\"none\" stroke=\"#f5c518\" stroke-width=\"2.6\"/><path fill=\"#f5c518\" d=\"M21.416015625 28.83984375H28.935546875V39.484375L39.775390625 28.83984375H48.505859375L34.462890625 42.6484375L49.951171875 58.0H40.537109375L28.935546875 46.515625V58.0H21.416015625ZM60.302734375 34.5234375V40.79296875H64.892578125V45.87109375H60.302734375V52.31640625H62.978515625Q67.587890625 52.31640625 70.01953125 50.03125Q72.451171875 47.74609375 72.451171875 43.390625Q72.451171875 39.0546875 70.029296875 36.7890625Q67.607421875 34.5234375 62.978515625 34.5234375ZM52.783203125 28.83984375H60.693359375Q67.353515625 28.83984375 70.595703125 29.787109375Q73.837890625 30.734375 76.181640625 33.0Q78.212890625 34.97265625 79.21875 37.55078125Q80.224609375 40.12890625 80.224609375 43.390625Q80.224609375 46.69140625 79.21875 49.279296875Q78.212890625 51.8671875 76.181640625 53.83984375Q73.818359375 56.10546875 70.537109375 57.052734375Q67.255859375 58.0 60.693359375 58.0H52.783203125V45.87109375H49.384765625V40.79296875H52.783203125Z\"/><rect x=\"27\" y=\"64\" width=\"46\" height=\"2.4\" rx=\"1.2\" fill=\"#f5c518\" opacity=\".85\"/><path fill=\"#ffffff\" d=\"M30.220234375 78.65087890625H35.673847656250004V81.0H26.6675V78.65087890625L31.19142578125 74.658203125Q31.7973828125 74.1103515625 32.087910156250004 73.58740234375Q32.378437500000004 73.064453125 32.378437500000004 72.5Q32.378437500000004 71.62841796875 31.793232421875004 71.09716796875Q31.20802734375 70.56591796875 30.2368359375 70.56591796875Q29.489765625 70.56591796875 28.60158203125 70.885498046875Q27.7133984375 71.205078125 26.700703125 71.8359375V69.11328125Q27.7798046875 68.75634765625 28.83400390625 68.569580078125Q29.888203125 68.3828125 30.9008984375 68.3828125Q33.125507812500004 68.3828125 34.358173828125004 69.3623046875Q35.590839843750004 70.341796875 35.590839843750004 72.09326171875Q35.590839843750004 73.10595703125 35.067890625000004 73.981689453125Q34.544941406250004 74.857421875 32.868183593750004 76.32666015625ZM45.65072265625 74.791015625Q45.65072265625 72.466796875 45.214931640625 71.516357421875Q44.779140625 70.56591796875 43.74984375 70.56591796875Q42.720546875 70.56591796875 42.28060546875 71.516357421875Q41.8406640625 72.466796875 41.8406640625 74.791015625Q41.8406640625 77.14013671875 42.28060546875 78.10302734375Q42.720546875 79.06591796875 43.74984375 79.06591796875Q44.77083984375 79.06591796875 45.21078125 78.10302734375Q45.65072265625 77.14013671875 45.65072265625 74.791015625ZM48.8465234375 74.81591796875Q48.8465234375 77.8955078125 47.5183984375 79.568115234375Q46.1902734375 81.24072265625 43.74984375 81.24072265625Q41.30111328125 81.24072265625 39.97298828125 79.568115234375Q38.64486328125 77.8955078125 38.64486328125 74.81591796875Q38.64486328125 71.72802734375 39.97298828125 70.055419921875Q41.30111328125 68.3828125 43.74984375 68.3828125Q46.1902734375 68.3828125 47.5183984375 70.055419921875Q48.8465234375 71.72802734375 48.8465234375 74.81591796875ZM55.237460937499996 78.65087890625H60.691074218749996V81.0H51.684726562499996V78.65087890625L56.208652343749996 74.658203125Q56.814609374999996 74.1103515625 57.105136718749996 73.58740234375Q57.395664062499996 73.064453125 57.395664062499996 72.5Q57.395664062499996 71.62841796875 56.810458984374996 71.09716796875Q56.225253906249996 70.56591796875 55.254062499999996 70.56591796875Q54.506992187499996 70.56591796875 53.618808593749996 70.885498046875Q52.730624999999996 71.205078125 51.717929687499996 71.8359375V69.11328125Q52.797031249999996 68.75634765625 53.851230468749996 68.569580078125Q54.905429687499996 68.3828125 55.918124999999996 68.3828125Q58.142734374999996 68.3828125 59.375400390624996 69.3623046875Q60.608066406249996 70.341796875 60.608066406249996 72.09326171875Q60.608066406249996 73.10595703125 60.085117187499996 73.981689453125Q59.562167968749996 74.857421875 57.885410156249996 76.32666015625ZM68.9994921875 74.88232421875Q68.16111328125 74.88232421875 67.741923828125 75.426025390625Q67.322734375 75.9697265625 67.322734375 77.05712890625Q67.322734375 78.14453125 67.741923828125 78.688232421875Q68.16111328125 79.23193359375 68.9994921875 79.23193359375Q69.846171875 79.23193359375 70.265361328125 78.688232421875Q70.68455078125 78.14453125 70.68455078125 77.05712890625Q70.68455078125 75.9697265625 70.265361328125 75.426025390625Q69.846171875 74.88232421875 68.9994921875 74.88232421875ZM72.9506640625 68.9306640625V71.2216796875Q72.16208984375 70.84814453125 71.46482421875 70.669677734375Q70.76755859375 70.4912109375 70.10349609375 70.4912109375Q68.67576171875 70.4912109375 67.87888671875 71.283935546875Q67.08201171875 72.07666015625 66.94919921875 73.63720703125Q67.49705078125 73.23046875 68.1362109375 73.027099609375Q68.77537109375 72.82373046875 69.5307421875 72.82373046875Q71.43162109375 72.82373046875 72.597880859375 73.93603515625Q73.764140625 75.04833984375 73.764140625 76.849609375Q73.764140625 78.841796875 72.46091796875 80.041259765625Q71.1576953125 81.24072265625 68.9662890625 81.24072265625Q66.55076171875 81.24072265625 65.226787109375 79.609619140625Q63.902812499999996 77.978515625 63.902812499999996 74.98193359375Q63.902812499999996 71.91064453125 65.450908203125 70.155029296875Q66.99900390625 68.3994140625 69.6967578125 68.3994140625Q70.55173828125 68.3994140625 71.3569140625 68.5322265625Q72.16208984375 68.6650390625 72.9506640625 68.9306640625Z\"/></svg>";
 var CV_MOI = ["**Biểu mẫu mới:** dùng **Mẫu 01, 02A, 02B, 02C** kèm Công văn số 961-CV/TU thay thế Mẫu 1, 2A, 2B, 2C; **Mẫu ĐU-01, ĐU-03 (kèm danh sách)** được cập nhật; các biểu mẫu khác giữ nguyên. Đã làm theo mẫu cũ thì hoàn chỉnh theo mẫu mới, bổ sung nội dung (6) trước khi gửi hồ sơ (Khoản 3, 9).", "**Bổ sung nội dung kiểm điểm (6):** lãnh đạo công tác tư tưởng; chấp hành kỷ luật phát ngôn; thực hiện trách nhiệm nêu gương; kết quả học tập, thực hành tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh (Kế hoạch số 152-KH/TU, 153-KH/TU). **Gợi ý kiểm điểm (nếu có)** tập trung vấn đề nổi cộm, chậm tiến độ, tồn đọng; sau kiểm điểm phải xác định rõ biện pháp, trách nhiệm, thời hạn khắc phục.", "**Thời hạn:** điều chỉnh lịch kiểm điểm chậm nhất **20/11/2026**; gửi hồ sơ về Ban Thường vụ Đảng ủy xã (qua Ban Xây dựng Đảng) **chậm nhất 27/11/2026** (thay 30/11/2026); hội nghị kiểm điểm Ban Thường vụ **30/11 - 01/12/2026 hoặc 01 - 02/12/2026** (thông báo sau); gửi hồ sơ Ban Thường vụ Thành ủy **chậm nhất 03/12/2026**. Lộ trình 18 mốc tại Phụ lục 1 thay thế Phụ lục 3 Kế hoạch.", "**Đoàn công tác (nếu có):** không thành lập đoàn công tác thì người đứng đầu chủ động tổ chức kiểm điểm theo lịch đã đăng ký, báo cáo kết quả cùng hồ sơ kiểm điểm.", "**Ủy ban Kiểm tra Đảng ủy xã** là tập thể kiểm điểm riêng; Ban Thường vụ Đảng ủy xã quyết định xếp loại Ủy ban Kiểm tra; cá nhân ủy viên theo ủy quyền, phân cấp (Quy định số 06-QĐ/ĐU).", "**Thẩm quyền:** đảng ủy các đảng bộ trực thuộc **quyết định xếp loại các chi bộ trực thuộc**, hoàn thành trước khi tự đánh giá đảng bộ; Ban Thường vụ Đảng ủy xã quyết định xếp loại 29 chi bộ trực thuộc Đảng ủy xã và 04 đảng bộ trực thuộc.", "**Chi ủy, tổ đảng:** chi bộ có chi ủy kiểm điểm tập thể chi ủy, thông qua tại chi bộ; chi bộ không có chi ủy thì bí thư, phó bí thư (nếu có) kiểm điểm tại chi bộ; tổ đảng (nếu có) kiểm điểm, nhận xét đảng viên tại tổ, báo cáo chi ủy.", "**Nơi kiểm điểm:** giữ nhiều chức vụ thì kiểm điểm **đầy đủ ở nơi giữ chức vụ cao nhất**, các nơi còn lại tập trung vào nhiệm vụ được phân công; giữ các chức vụ kiêm nhiệm tương đương thì kiểm điểm ở nơi có thời gian công tác nhiều hơn; kiêm nhiệm ở cơ quan khác (không chuyên trách) thì phải kiểm điểm tại nơi kiêm nhiệm.", "**Chấm điểm:** tiêu chí chung 30 điểm, kết quả thực hiện nhiệm vụ 70 điểm (kế thừa phương pháp KPI hằng quý, danh mục quý IV theo Công văn số 1217-CV/ĐU); **không cộng dồn cơ học** kết quả xếp loại các quý (Hướng dẫn số 02-HD/ĐU).", "**“Hoàn thành xuất sắc nhiệm vụ”:** người đứng đầu **không tính vào tỷ lệ** của các thành viên khác; **không lấy tỷ lệ tối đa** để xếp cho đủ; làm tròn **từ 0,5 trở lên** (07 × 20% = 1,4 → 01; 08 × 20% = 1,6 → 02).", "**Cán bộ biệt phái:** nơi tiếp nhận đánh giá, quyết định mức xếp loại, tính vào tỷ lệ của tập thể nơi tiếp nhận.", "**Số liệu:** ước tính đến **31/12/2026** (thay mốc 15/12/2026); UBND xã gửi số liệu chỉ tiêu trước 25/11/2026; khi có số liệu chính thức làm thay đổi mức xếp loại thì báo cáo ngay để điều chỉnh.", "**Nơi cư trú:** thực hiện toàn trình trên môi trường điện tử, xong trước 25/11/2026; Chi bộ Công an xã, Chi bộ Quân sự xã phối hợp chi bộ ấp nhận xét trực tiếp theo hình thức phù hợp.", "**Danh sách kèm Tờ trình ĐU-03:** thống kê **đầy đủ toàn bộ đảng viên**, kể cả đảng viên được miễn, chưa kiểm điểm (ghi rõ lý do) để tổng hợp Mẫu 11B, 11D-BTCTW.", "**Hậu kiểm:** sau khi thông báo kết quả, phát sinh vấn đề làm thay đổi mức xếp loại thì báo cáo Ban Thường vụ Đảng ủy xã để điều chỉnh, hủy bỏ và đánh giá lại.", "**Hồ sơ gửi Thành ủy** (Phụ lục 2): bổ sung báo cáo theo Đề cương, Mẫu 10A, 11A - 11D, 11E1 - 11E4; 01 bộ giấy và hồ sơ điện tử (PDF, Excel) qua Hệ thống thông tin điều hành tác nghiệp."];
+
+/* ================= MẪU PHIẾU BIỂU QUYẾT XẾP LOẠI (tham khảo) – bổ sung ngày 21/11/2026 ================= */
+FORM_GROUPS.unshift({id: "g0", name: "Mẫu phiếu biểu quyết xếp loại chất lượng năm 2026 (tham khảo – Ban Xây dựng Đảng)"});
+(function(){
+  var add = {
+    PBQ01: {g: ["g0"], f: "w_PBQ01.docx", dl: "PBQ-01 Phieu bieu quyet xep loai dang vien.docx", t: "Mẫu PBQ-01 – Phiếu biểu quyết xếp loại chất lượng đảng viên", k: "Word"},
+    PBQ02: {g: ["g0"], f: "w_PBQ02.docx", dl: "PBQ-02 Phieu bieu quyet xep loai to chuc dang va cap uy.docx", t: "Mẫu PBQ-02 – Phiếu biểu quyết xếp loại chất lượng tổ chức đảng và cấp ủy", k: "Word"},
+    PBQ03: {g: ["g0"], f: "w_PBQ03.docx", dl: "PBQ-03 Phieu bieu quyet cua dang uy truc thuoc xep loai chi bo.docx", t: "Mẫu PBQ-03 – Phiếu biểu quyết của đảng ủy trực thuộc xếp loại chất lượng chi bộ trực thuộc", k: "Word"},
+    PBQ04: {g: ["g0"], f: "w_PBQ04.docx", dl: "PBQ-04 Phieu bieu quyet xep loai tap the lanh dao quan ly.docx", t: "Mẫu PBQ-04 – Phiếu biểu quyết xếp loại chất lượng tập thể lãnh đạo, quản lý", k: "Word"},
+    PBQ05: {g: ["g0"], f: "w_PBQ05.docx", dl: "PBQ-05 Phieu bieu quyet xep loai ca nhan can bo lanh dao quan ly.docx", t: "Mẫu PBQ-05 – Phiếu biểu quyết xếp loại chất lượng cá nhân cán bộ lãnh đạo, quản lý", k: "Word"},
+    PBQXL: {g: ["g0"], f: "x_PBQ.xlsx", dl: "Cong cu in phieu PBQ-01 va kiem phieu xep loai 2026.xlsx", t: "File Excel in phiếu PBQ-01 và kiểm phiếu xếp loại", k: "Excel", n: "Chỉ nhập vào ô nền vàng; các ô công thức đã được khóa. Sheet DanhSach → PBQ-01 (in phiếu) → KiemPhieu_DangVien, KiemPhieu_TapThe (tự tính tỷ lệ, mức theo kết quả bỏ phiếu)."},
+    PBQBO: {g: ["g0"], f: "w_PBQ.docx", dl: "Bo mau phieu bieu quyet xep loai chat luong nam 2026 PBQ-01 den PBQ-05.docx", t: "Trọn bộ Mẫu PBQ-01 đến PBQ-05 và ghi chú, hướng dẫn sử dụng", k: "Word", n: "Phần ghi chú, hướng dẫn ở cuối file không in kèm phiếu."}
+  };
+  for (var k in add) FORMS[k] = add[k];
+})();
+
+/* Đối tượng sử dụng từng biểu mẫu */
+var FORM_USE = {
+  PBQ01: "Chi bộ (chi bộ trực thuộc Đảng ủy xã, chi bộ ấp, chi bộ thuộc đảng bộ trường) – đảng viên chính thức có mặt biểu quyết xếp loại đảng viên.",
+  PBQ02: "Chi bộ: biểu quyết xếp loại chi bộ và chi ủy (nơi có chi ủy). Đảng ủy đảng bộ trường: biểu quyết tự đánh giá, đề xuất xếp loại đảng bộ, đảng ủy.",
+  PBQ03: "Đảng ủy 04 đảng bộ trường học – xếp loại các chi bộ trực thuộc (Khoản 2 Công văn số 1270-CV/ĐU).",
+  PBQ04: "Tập thể lãnh đạo, quản lý: Văn phòng Đảng ủy, Ban Xây dựng Đảng, Ủy ban Kiểm tra, Thường trực và các ban HĐND, lãnh đạo UBND xã, các phòng, đơn vị, Ủy ban MTTQ và các tổ chức chính trị - xã hội (kể cả cơ quan, đơn vị tự đánh giá theo Mẫu 5B).",
+  PBQ05: "Tập thể lãnh đạo, quản lý (cấp ủy) – biểu quyết xếp loại từng cá nhân cán bộ lãnh đạo, quản lý (cấp trưởng, cấp phó) sau khi đã xếp loại tập thể.",
+  PBQXL: "Chi ủy (bí thư chi bộ) in phiếu PBQ-01; Ban kiểm phiếu ở mọi hội nghị (chi bộ, đảng ủy, tập thể lãnh đạo) kiểm phiếu, tính kết quả.",
+  PBQBO: "Ban Xây dựng Đảng; chi ủy, đảng ủy, tập thể lãnh đạo tham khảo toàn bộ phiếu và hướng dẫn.",
+  M1: "Tất cả tập thể: chi bộ, đảng bộ trực thuộc; cấp ủy (đảng ủy, chi ủy); Ủy ban Kiểm tra; tập thể lãnh đạo, quản lý các cơ quan, đơn vị; Ban Thường vụ Đảng ủy xã.",
+  M2A: "Cá nhân giữ chức vụ lãnh đạo, quản lý: Ủy viên BTV, Ủy viên BCH Đảng bộ xã; cấp trưởng, cấp phó cơ quan, đơn vị; bí thư, phó bí thư đảng bộ, chi bộ; bí thư, phó bí thư chi bộ ấp, trưởng ấp, trưởng ban công tác Mặt trận ấp; đảng viên giữ chức vụ quản lý ở Điện lực.",
+  M2B: "Đảng viên là cán bộ, công chức, viên chức, người lao động không giữ chức vụ lãnh đạo, quản lý (cơ quan Đảng, chính quyền, MTTQ, đoàn thể, trường học, Điện lực…).",
+  M2C: "Đảng viên không làm việc trong hệ thống chính trị: đảng viên chi bộ ấp (trừ 04 chức danh dùng Mẫu 02A), hưu trí, làm nông, kinh doanh, làm việc tại doanh nghiệp, Quỹ tín dụng nhân dân, học sinh, sinh viên…",
+  M2D: "Công chức, viên chức chưa là đảng viên trong cơ quan Đảng, Mặt trận Tổ quốc, đoàn thể xã.",
+  P56: "Sheet 5A: Đảng bộ xã; 5B: cơ quan, đơn vị (UBND xã, phòng, đơn vị, cơ quan Đảng, MTTQ, đoàn thể); 5C: cấp ủy, tập thể lãnh đạo, quản lý (BTV, đảng ủy, chi ủy, Ủy ban Kiểm tra, tập thể lãnh đạo); 6A, 6B, 6C: cá nhân dùng Mẫu 02A, 02B, 02C tương ứng.",
+  M7: "Tất cả tập thể và cá nhân kiểm điểm (đảng viên chi bộ ấp ghi ngắn gọn 3 – 5 việc chính).",
+  Q221: "Đảng viên đang công tác ở chi bộ cơ quan, đơn vị, trường học, lực lượng vũ trang (Mẫu 1: được miễn sinh hoạt nơi cư trú; Mẫu 2: các trường hợp còn lại); chi bộ ấp nơi cư trú nhận xét. Đảng viên chi bộ ấp không thuộc diện.",
+  M5H43: "Cán bộ có đánh giá quý IV: diện BTV Thành ủy (Bí thư, Phó Bí thư, Chủ tịch HĐND, Chủ tịch UBND xã) và cán bộ diện BTV Đảng ủy xã có danh mục quý IV.",
+  M13: "Tập thể Đảng ủy xã (Mẫu 1); Bí thư, Phó Bí thư Thường trực, Phó Bí thư – Chủ tịch UBND xã (Mẫu 3) – chỉ gửi lại khi có điều chỉnh.",
+  HD07: "Tập thể Đảng ủy xã (sheet M2) và cán bộ diện BTV Thành ủy (sheet M4, M5).",
+  M4BT: "Đồng chí Bí thư Đảng ủy xã.", M4PBT: "Đồng chí Phó Bí thư Thường trực Đảng ủy xã.", M4CT: "Đồng chí Phó Bí thư Đảng ủy, Chủ tịch UBND xã.",
+  PL1: "Ủy ban nhân dân xã tổng hợp; Văn phòng Đảng ủy đưa vào hồ sơ quý IV của Đảng ủy xã.", PL2: "Ủy ban nhân dân xã tổng hợp; Văn phòng Đảng ủy đưa vào hồ sơ quý IV của Đảng ủy xã.", PL3: "Ủy ban nhân dân xã tổng hợp; Văn phòng Đảng ủy đưa vào hồ sơ quý IV của Đảng ủy xã.",
+  B0103: "Cơ quan, đơn vị (Biểu 01) và cán bộ (Biểu 02) có đánh giá quý theo Công văn số 1217-CV/ĐU – chỉ gửi lại khi có điều chỉnh.",
+  B245: "Cơ quan, đơn vị: sheet M2 (kết quả quý IV); cán bộ diện BTV Đảng ủy xã có đánh giá quý: sheet M4, M5.",
+  DU01: "Thư ký mọi hội nghị kiểm điểm: chi bộ, đảng ủy trực thuộc, tập thể lãnh đạo, quản lý, Ủy ban Kiểm tra.",
+  DU02: "Ban kiểm phiếu ở mọi hội nghị có bỏ phiếu xếp loại (chi bộ, đảng ủy trực thuộc, tập thể lãnh đạo, quản lý).",
+  DU03: "29 chi bộ trực thuộc Đảng ủy xã (kể cả chi bộ ấp) và 04 đảng bộ trường (ký hiệu -TTr/ĐU); chi bộ thuộc đảng bộ trường gửi tờ trình đến đảng ủy trường.",
+  DU03K: "Kèm Tờ trình ĐU-03 của chi bộ, đảng bộ – thống kê đầy đủ toàn bộ đảng viên.",
+  DU04: "ĐU-04A: 04 đảng bộ trường; ĐU-04B: chi bộ cơ quan, đơn vị và chi bộ thuộc đảng bộ trường; ĐU-04C: chi bộ ấp.",
+  M8C: "Ban Xây dựng Đảng tổng hợp; Ban Thường vụ Đảng ủy xã xác nhận, gửi Thành ủy.",
+  M9: "Ban Xây dựng Đảng tổng hợp từ số liệu của cơ quan Đảng, Ủy ban MTTQ và các tổ chức chính trị - xã hội xã.",
+  DC: "Ban Xây dựng Đảng tham mưu báo cáo của Ban Thường vụ Đảng ủy xã.", M10: "Ban Xây dựng Đảng (Mẫu 10A).",
+  M11AD: "Ban Xây dựng Đảng tổng hợp từ danh sách ĐU-03 của các đảng bộ, chi bộ.", M11E: "Ban Xây dựng Đảng tổng hợp (Phần B – cấp xã)."
+};
+for (var _u in FORM_USE) if (FORMS[_u]) FORMS[_u].u = FORM_USE[_u];
+
+/* Mẫu phiếu theo đối tượng */
+var PBQ_DT = [
+  {id: "cb", t: "Chi bộ", s: "Chi bộ trực thuộc Đảng ủy xã (chi bộ cơ quan, đơn vị; chi bộ ấp) và chi bộ thuộc 04 đảng bộ trường học", c: "#1e7a3c",
+   ai: "Đảng viên chính thức có mặt tại hội nghị chi bộ (đảng viên dự bị dự hội nghị, góp ý nhưng không nhận phiếu).",
+   buoc: ["Chi bộ thảo luận mức xếp loại do chi ủy (bí thư chi bộ) đề xuất; hội nghị biểu quyết (giơ tay) cử Ban kiểm phiếu (ghi tại Mẫu ĐU-02).",
+          "Biểu quyết xếp loại **đảng viên** bằng **phiếu PBQ-01** → Ban kiểm phiếu kiểm phiếu, công bố kết quả.",
+          "Chi ủy (bí thư) hoàn chỉnh mức đề xuất đối với **chi bộ** và **chi ủy** (vì tiêu chí, điều kiện xếp loại chi bộ phụ thuộc kết quả xếp loại đảng viên) → biểu quyết bằng **phiếu PBQ-02**.",
+          "Ban kiểm phiếu lập biên bản **Mẫu ĐU-02**; kết quả ghi vào cột (9) và Phần A danh sách **Mẫu ĐU-03**; phiếu niêm phong, lưu tại chi bộ."],
+   f: [["PBQ01", "Xếp loại đảng viên – dùng trước"], ["PBQ02", "Xếp loại chi bộ và chi ủy – dùng sau"], ["PBQXL", "In phiếu PBQ-01 từ danh sách; kiểm phiếu, tính kết quả"], ["DU02", "Biên bản kết quả bỏ phiếu"]],
+   nt: ["Chi bộ **không có chi ủy**: phiếu PBQ-02 chỉ giữ dòng chi bộ, bỏ dòng chi ủy.", "Chi bộ thuộc **đảng bộ trường**: biểu quyết theo PBQ-01, PBQ-02, gửi kết quả cùng tờ trình đến **đảng ủy trường** (đảng ủy quyết định xếp loại chi bộ).", "Phiếu PBQ-01 **không ghi tên** đảng viên được miễn công tác và sinh hoạt đảng, bị đình chỉ sinh hoạt đảng, mới kết nạp chưa đủ 06 tháng (vẫn thống kê vào danh sách ĐU-03, ghi rõ lý do)."]},
+  {id: "db", t: "Đảng ủy đảng bộ trực thuộc", s: "Đảng ủy 04 đảng bộ trường học", c: "#1f4f86",
+   ai: "Ủy viên đảng ủy có mặt tại hội nghị đảng ủy.",
+   buoc: ["Sau khi các chi bộ trực thuộc gửi tờ trình, đảng ủy họp xem xét; cử Ban kiểm phiếu.",
+          "Biểu quyết xếp loại **các chi bộ trực thuộc** bằng **phiếu PBQ-03** (thẩm quyền của đảng ủy theo Khoản 2 Công văn số 1270-CV/ĐU) → kiểm phiếu, công bố.",
+          "Sau đó mới biểu quyết tự đánh giá, đề xuất xếp loại **đảng ủy, đảng bộ** bằng **phiếu PBQ-02**.",
+          "Lập biên bản **Mẫu ĐU-02**; kết quả xếp loại chi bộ ghi tại **Mục 2.1 Tờ trình ĐU-03** của đảng ủy, gửi Ban Thường vụ Đảng ủy xã (qua Ban Xây dựng Đảng)."],
+   f: [["PBQ03", "Xếp loại chi bộ trực thuộc – dùng trước"], ["PBQ02", "Tự đánh giá đảng ủy, đảng bộ – dùng sau"], ["PBQXL", "Sheet KiemPhieu_TapThe – kiểm phiếu tập thể"], ["DU02", "Biên bản kết quả bỏ phiếu"]],
+   nt: ["Đảng bộ trường **có con dấu**: có thể đóng dấu treo của đảng ủy vào ô xác nhận thay cho chữ ký của Trưởng Ban kiểm phiếu."]},
+  {id: "tt", t: "Tập thể lãnh đạo, quản lý", s: "Văn phòng Đảng ủy, Ban Xây dựng Đảng, Ủy ban Kiểm tra; Thường trực và các ban HĐND; lãnh đạo UBND xã, các phòng, đơn vị; Ủy ban MTTQ và các tổ chức chính trị - xã hội", c: "#8e0f15",
+   ai: "Thành viên tập thể lãnh đạo, quản lý (cấp ủy) có mặt.",
+   buoc: ["Hội nghị thảo luận mức xếp loại do tập thể lãnh đạo, người đứng đầu đề xuất; cử Ban kiểm phiếu.",
+          "Biểu quyết xếp loại **cơ quan, đơn vị** (nếu thuộc đối tượng Mẫu 5B) và **tập thể lãnh đạo, quản lý** bằng **phiếu PBQ-04** – trước.",
+          "Biểu quyết xếp loại **từng cá nhân** cán bộ lãnh đạo, quản lý bằng **phiếu PBQ-05** – sau (mức của người đứng đầu không cao hơn mức của tập thể).",
+          "Lập biên bản **Mẫu ĐU-02**, đưa vào hồ sơ gửi Ban Thường vụ Đảng ủy xã (qua Ban Xây dựng Đảng); kết quả cá nhân đưa vào hồ sơ cá nhân."],
+   f: [["PBQ04", "Xếp loại tập thể (và cơ quan, đơn vị) – dùng trước"], ["PBQ05", "Xếp loại cá nhân lãnh đạo, quản lý – dùng sau"], ["PBQXL", "Sheet KiemPhieu_TapThe (tập thể) và KiemPhieu_DangVien (cá nhân)"], ["DU02", "Biên bản kết quả bỏ phiếu"]],
+   nt: ["Công chức, viên chức được đánh giá, xếp loại **trước** khi chi bộ xếp loại đảng viên.", "Tập thể lãnh đạo của chính quyền, Mặt trận Tổ quốc, các tổ chức chính trị - xã hội: tên cơ quan, tiêu đề của phiếu ghi theo thể thức văn bản của hệ thống mình (tương tự ghi chú Mẫu ĐU-01)."]},
+  {id: "kp", t: "Ban kiểm phiếu", s: "Ban kiểm phiếu tại mọi hội nghị (chi bộ, đảng ủy trực thuộc, tập thể lãnh đạo, quản lý)", c: "#a15c00",
+   ai: "Ban kiểm phiếu do hội nghị biểu quyết cử.",
+   buoc: ["Nhận phiếu đã in sẵn danh sách; **Trưởng Ban ký vào ô xác nhận trên từng phiếu** trước khi phát (nơi có con dấu có thể đóng dấu treo); số phiếu phát bằng số người có quyền biểu quyết có mặt.",
+          "Phát phiếu, hướng dẫn cách ghi; thu phiếu; đếm số phiếu phát ra, thu vào, hợp lệ, không hợp lệ.",
+          "Nhập số phiếu từng mức vào file Excel (sheet KiemPhieu_DangVien, KiemPhieu_TapThe) hoặc dùng **máy tính kết quả** ngay bên dưới.",
+          "Lập biên bản **Mẫu ĐU-02**, công bố kết quả trước hội nghị; niêm phong phiếu, lưu cùng biên bản (không gửi phiếu về Ban Xây dựng Đảng)."],
+   f: [["PBQXL", "Kiểm phiếu, tự tính tỷ lệ và mức theo kết quả bỏ phiếu"], ["DU02", "Biên bản kết quả bỏ phiếu"]], nt: []}
+];
+var PBQ_KY = [
+  "Phiếu biểu quyết là **phiếu kín**: người biểu quyết **không ký tên, không ghi tên** trên phiếu.",
+  "Để chứng minh phiếu do Ban kiểm phiếu phát ra – nhất là ở **chi bộ không có con dấu** – mỗi phiếu có ô **“TRƯỞNG BAN KIỂM PHIẾU (Ký trước khi phát phiếu)”**. Chữ ký này **thay cho con dấu**, xác nhận đó là phiếu hợp lệ của hội nghị.",
+  "Trưởng Ban kiểm phiếu (do hội nghị biểu quyết cử, ghi tại Mẫu ĐU-02) **ký vào ô xác nhận trên từng phiếu trước khi phát**; số phiếu ký phát **bằng số người có quyền biểu quyết có mặt**.",
+  "Nơi **có con dấu** (đảng ủy các đảng bộ trường; cơ quan, đơn vị có con dấu) có thể **đóng dấu treo** của cấp ủy (cơ quan) vào ô xác nhận thay cho chữ ký.",
+  "Phiếu **không có chữ ký** của Trưởng Ban kiểm phiếu (hoặc dấu treo) là **phiếu không hợp lệ**.",
+  "Phiếu in thừa, viết hỏng không phát ra: Ban kiểm phiếu ghi “Hủy” trên phiếu, lưu cùng biên bản; số phiếu phát ra, thu vào, hợp lệ, không hợp lệ ghi đầy đủ vào Mẫu ĐU-02."
+];
+var PBQ_HL = [
+  "**Phiếu không hợp lệ:** phiếu không do Ban kiểm phiếu phát ra hoặc không có chữ ký của Trưởng Ban kiểm phiếu (dấu treo của cấp ủy); phiếu có ký tên, ghi tên người biểu quyết hoặc ghi thêm nội dung, ký hiệu khác; phiếu gạch xóa, bổ sung tên ngoài danh sách; phiếu không đánh dấu ở bất kỳ dòng nào.",
+  "Trên phiếu hợp lệ, **dòng không đánh dấu hoặc đánh dấu từ 02 ô trở lên** thì ý kiến đối với tập thể, cá nhân ở dòng đó **không được tính**; các dòng còn lại vẫn được tính.",
+  "**Tỷ lệ (%)** từng mức tính trên **tổng số phiếu hợp lệ**.",
+  "**Mức theo kết quả bỏ phiếu:** cộng dồn số phiếu từ mức cao nhất xuống; mức đầu tiên có số phiếu cộng dồn **trên 50%** tổng số phiếu hợp lệ là mức theo kết quả bỏ phiếu. Ví dụ: 20 phiếu hợp lệ, đồng chí A được 06 phiếu “Hoàn thành xuất sắc nhiệm vụ” (30%), 07 phiếu “Hoàn thành tốt nhiệm vụ”, 06 phiếu “Hoàn thành nhiệm vụ”, 01 phiếu “Không hoàn thành nhiệm vụ” → cộng dồn hai mức đầu được 13/20 (65%) nên mức theo kết quả bỏ phiếu là “Hoàn thành tốt nhiệm vụ”.",
+  "Kết quả bỏ phiếu là **cơ sở để đề xuất**, không phải quyết định xếp loại. Mức đề xuất phải bảo đảm đồng thời điểm số, điều kiện và tỷ lệ (“Hoàn thành xuất sắc nhiệm vụ” không vượt 20% số “Hoàn thành tốt nhiệm vụ”, làm tròn từ 0,5 trở lên; người đứng đầu không cao hơn tập thể và không tính vào tỷ lệ – Điểm 5.4 Công văn số 1270-CV/ĐU). Mức đề xuất khác mức theo kết quả bỏ phiếu thì ghi rõ lý do tại biên bản và Mục 3 Tờ trình ĐU-03."
+];
+var PBQ_CB = [
+  "Chi ủy (bí thư chi bộ), tập thể lãnh đạo **ghi sẵn vào phiếu** danh sách tập thể, cá nhân; điểm tự chấm, mức tự xếp loại và mức đề xuất (đã đối chiếu điểm số, điều kiện, tỷ lệ theo Điều 11 Quy định số 04-QĐ/ĐU và nhận xét nơi cư trú); được thêm, bớt dòng cho phù hợp.",
+  "Đảng viên dự bị thuộc diện đánh giá vẫn có tên trong phiếu nhưng **không nhận phiếu biểu quyết** (Điều 5 Điều lệ Đảng).",
+  "Hội nghị **thảo luận mức đề xuất trước khi bỏ phiếu** (Bước 2, Điểm 4.2, Mục 4, Phần II Hướng dẫn số 01-HD/BTCTU).",
+  "Phiếu sau khi kiểm được **niêm phong**, lưu cùng biên bản tại chi bộ, đảng ủy, cơ quan, đơn vị; hồ sơ gửi Ban Thường vụ Đảng ủy xã gồm biên bản Mẫu ĐU-02, **không gửi phiếu**."
+];
+/* Gắn phiếu vào từng đối tượng */
+var PBQ_MAP = {
+  T_CBCQ: [["PBQ01", "Phiếu biểu quyết xếp loại đảng viên"], ["PBQ02", "Phiếu biểu quyết xếp loại chi bộ, chi ủy"], ["PBQXL", "In phiếu PBQ-01, kiểm phiếu"]],
+  T_CBDB: [["PBQ01", "Phiếu biểu quyết xếp loại đảng viên"], ["PBQ02", "Phiếu biểu quyết xếp loại chi bộ, chi ủy"], ["PBQXL", "In phiếu PBQ-01, kiểm phiếu"]],
+  T_DBTT: [["PBQ03", "Đảng ủy biểu quyết xếp loại chi bộ trực thuộc (trước)"], ["PBQ02", "Biểu quyết tự đánh giá đảng ủy, đảng bộ (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_CAPUY: [["PBQ02", "Phiếu biểu quyết xếp loại tổ chức đảng và cấp ủy"]],
+  T_TTDANG: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_TTHDND: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_BANHDND: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_UBND: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể, cơ quan (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_PHONG: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể, cơ quan, đơn vị (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_MTTQ: [["PBQ04", "Phiếu biểu quyết xếp loại tập thể, tổ chức (trước)"], ["PBQ05", "Phiếu biểu quyết xếp loại cá nhân lãnh đạo (sau)"], ["PBQXL", "Kiểm phiếu"]],
+  T_CQDV: [["PBQ04", "Phiếu biểu quyết xếp loại cơ quan, đơn vị"]]
+};
+PROFILES.forEach(function(p){ if (PBQ_MAP[p.id]) p.forms = p.forms.concat(PBQ_MAP[p.id]); });
+AP_VIEC.forEach(function(v){ if (v.t === "Bỏ phiếu xếp loại") { v.f = ["PBQ01", "PBQ02"].concat(v.f); v.x += " Dùng **phiếu PBQ-01** (xếp loại đảng viên) trước, **PBQ-02** (chi bộ, chi ủy) sau; Trưởng Ban kiểm phiếu **ký xác nhận trên từng phiếu trước khi phát** (chi bộ không có con dấu)."; } });
+ST.bophieu += " Dùng **phiếu PBQ-01** (đảng viên) trước, **PBQ-02** (chi bộ, chi ủy) sau – mẫu tham khảo; Trưởng Ban kiểm phiếu **ký xác nhận trên từng phiếu trước khi phát** thay cho con dấu.";
+ST.bophieutt += " Dùng **phiếu PBQ-04** (tập thể, cơ quan, đơn vị) trước, **PBQ-05** (cá nhân lãnh đạo, quản lý) sau – mẫu tham khảo; Trưởng Ban kiểm phiếu ký xác nhận trên từng phiếu trước khi phát.";
+FAQ.unshift(
+  ["Chi bộ không có con dấu thì làm sao chứng minh phiếu biểu quyết là phiếu do hội nghị phát ra?", "Mỗi mẫu phiếu PBQ có ô “TRƯỞNG BAN KIỂM PHIẾU (Ký trước khi phát phiếu)”. Trưởng Ban kiểm phiếu do hội nghị cử ký vào ô này trên từng phiếu trước khi phát; chữ ký thay cho con dấu. Số phiếu ký phát bằng số người có quyền biểu quyết có mặt; phiếu không có chữ ký này là phiếu không hợp lệ. Nơi có con dấu (đảng ủy trường, cơ quan có dấu) có thể đóng dấu treo thay chữ ký. Xem mục “Mẫu phiếu biểu quyết xếp loại” ở trang chủ."],
+  ["Chi bộ dùng phiếu biểu quyết nào, theo thứ tự nào?", "Chi bộ biểu quyết xếp loại đảng viên bằng phiếu PBQ-01 trước; sau khi có kết quả, chi ủy (bí thư) hoàn chỉnh đề xuất rồi biểu quyết xếp loại chi bộ và chi ủy bằng phiếu PBQ-02. Đảng ủy đảng bộ trường dùng PBQ-03 (xếp loại chi bộ trực thuộc) trước, PBQ-02 (đảng ủy, đảng bộ) sau. Tập thể lãnh đạo, quản lý dùng PBQ-04 (tập thể) trước, PBQ-05 (cá nhân) sau."],
+  ["Mức xếp loại theo kết quả bỏ phiếu được xác định thế nào?", "Cộng dồn số phiếu từ mức cao nhất xuống; mức đầu tiên có số phiếu cộng dồn trên 50% tổng số phiếu hợp lệ là mức theo kết quả bỏ phiếu. Kết quả bỏ phiếu là cơ sở để đề xuất, không phải quyết định xếp loại; mức đề xuất còn phải bảo đảm điểm số, điều kiện và tỷ lệ. Mục “Mẫu phiếu biểu quyết xếp loại” có máy tính kết quả để tự kiểm tra."]
+);
+
 var FILES = {};
 </script>
 <script>
@@ -4449,11 +4586,11 @@ window.kdDownload = function(id){
     toast("Đang tải: " + F.dl);
   } catch(e) { toast("Trình duyệt không hỗ trợ tải file. Đề nghị dùng Chrome, Edge hoặc Cốc Cốc."); }
 };
-function formRow(id, note){
+function formRow(id, note, showU){
   var F = FORMS[id]; if (!F) return "";
   var w = F.k === "Word", pdf = F.k === "PDF";
   return '<div class="frm"><div class="ic '+(w?'w':'x')+'"'+(pdf?' style="background:#b3141b"':'')+'>'+(pdf?'P':(w?'W':'X'))+'</div><div class="fx"><b>'+esc(F.t)+'</b>'+
-    (note?'<span>'+md(note)+'</span>':'')+(F.n?'<em>'+md(F.n)+'</em>':'')+
+    (note?'<span>'+md(note)+'</span>':'')+(showU && F.u?'<span class="fu"><b>Dùng cho:</b> '+md(F.u)+'</span>':'')+(F.n?'<em>'+md(F.n)+'</em>':'')+
     '</div><button class="dl" onclick="kdDownload(\''+id+'\')">'+DL_SVG+'Tải về</button></div>';
 }
 
@@ -4480,6 +4617,7 @@ function render(){
     else if (v === "faq") html = vFaq();
     else if (v === "kh") html = vKh();
     else if (v === "cv") html = vCv();
+    else if (v === "pbq") html = vPbq(h[1]);
     else if (v === "bxdd") html = vBxdd();
     else if (v === "gt") html = vAbout();
     else if (v === "nd") html = vNoidung();
@@ -4500,7 +4638,7 @@ function nextDeadline(){
   return best;
 }
 function vHome(){
-  var h = '<button class="card hero" style="margin-bottom:12px;border-left-color:var(--gold)" onclick="go(\'gt\')"><b>Lời ngỏ – Góp ý</b><span>Thư ngỏ của tác giả Nguyễn Văn Dũng gửi các đồng chí lãnh đạo, cán bộ, đảng viên Đảng bộ xã Nhu Gia</span></button>';
+  var h = '<button class="card hero pbqhero" onclick="go(\'pbq\')"><span class="nb">MỚI</span><b>Mẫu phiếu biểu quyết xếp loại (tham khảo)</b><span>Chọn đúng đối tượng: chi bộ, đảng ủy trực thuộc, tập thể lãnh đạo, Ban kiểm phiếu → ra đúng mẫu phiếu PBQ-01 đến PBQ-05, thứ tự biểu quyết, cách ký xác nhận phiếu, máy tính kết quả; file Excel in phiếu, kiểm phiếu</span></button>';
   h += '<button class="card hero" style="margin-bottom:12px;border-left-color:#c00;background:#fff6f6" onclick="go(\'cv\')"><b>Điểm mới theo Công văn số 1270-CV/ĐU (19/11/2026)</b><span>Mẫu 01, 02A, 02B, 02C mới; hạn hồ sơ chậm nhất 27/11/2026; thẩm quyền, nơi kiểm điểm, tỷ lệ, số liệu – đọc toàn văn Công văn</span></button>';
   h += '<h1>Đồng chí là tập thể hay cá nhân?</h1><p class="lead">Chọn đúng đối tượng để biết cần hoàn thành biểu mẫu nào, các bước thực hiện, hồ sơ gửi Ban Xây dựng Đảng và thời hạn.</p>';
   h += '<div class="grid">'+
@@ -4521,13 +4659,15 @@ function vHome(){
     '<button class="card gold" onclick="go(\'nd\')"><b>Nội dung kiểm điểm năm 2026</b><span>06 nội dung cần tập trung làm rõ (bổ sung nội dung (6) theo Công văn số 1270-CV/ĐU)</span></button>'+
     '<button class="card gold" onclick="go(\'lt\')"><b>Lộ trình &amp; hạn chót</b><span>18 mốc công việc theo Phụ lục 1 Công văn số 1270-CV/ĐU, tự đối chiếu ngày hôm nay</span></button>'+
     '<button class="card gold" onclick="go(\'hoso\')"><b>Hồ sơ gửi Ban Xây dựng Đảng</b><span>Phụ lục 4 Kế hoạch, Phụ lục 2 Công văn số 1270-CV/ĐU; hạn chót 27/11/2026</span></button>'+
-    '<button class="card gold" onclick="go(\'forms\')"><b>Kho biểu mẫu</b><span>Biểu mẫu gốc kèm Kế hoạch và Công văn số 1270-CV/ĐU (Mẫu 01, 02A, 02B, 02C mới) – tải về dùng ngay</span></button>'+
+    '<button class="card gold" onclick="go(\'pbq\')"><b>Mẫu phiếu biểu quyết xếp loại</b><span>PBQ-01 đến PBQ-05 theo từng đối tượng; ký xác nhận phiếu; máy tính kết quả</span></button>'+
+    '<button class="card gold" onclick="go(\'forms\')"><b>Kho biểu mẫu</b><span>Chọn đối tượng để xem đúng biểu mẫu của mình; mỗi mẫu ghi rõ dùng cho ai – tải về dùng ngay</span></button>'+
     '<button class="card gold" onclick="go(\'diem\')"><b>Thang điểm &amp; mức xếp loại</b><span>Điều kiện, tỷ lệ; máy tính gợi ý mức xếp loại</span></button>'+
     '<button class="card gold" onclick="go(\'faq\')"><b>Hỏi đáp tình huống</b><span>Nơi kiểm điểm, trường hợp đặc biệt, trình tự…</span></button>'+
     '<button class="card gold" onclick="go(\'kh\')"><b>Kế hoạch số 59-KH/ĐU</b><span>Đọc toàn văn và các phụ lục; tải file</span></button>'+
     '<button class="card gold" onclick="go(\'cv\')"><b>Công văn số 1270-CV/ĐU</b><span>Điểm mới; toàn văn và 03 phụ lục; Công văn số 961-CV/TU</span></button>'+
     '<button class="card" onclick="go(\'bxdd\')"><b>Dành cho Ban Xây dựng Đảng</b><span>Nhiệm vụ tham mưu; Đề cương, Mẫu 10A, 11A - 11E4, 8C, 9</span></button>'+
     '</div>';
+  h += '<div class="sec">Lời ngỏ</div>' + '<button class="card hero" style="margin-bottom:12px;border-left-color:var(--gold)" onclick="go(\'gt\')"><b>Lời ngỏ – Góp ý</b><span>Thư ngỏ của tác giả Nguyễn Văn Dũng gửi các đồng chí lãnh đạo, cán bộ, đảng viên Đảng bộ xã Nhu Gia</span></button>';
   return h;
 }
 
@@ -4726,16 +4866,80 @@ function vRoadmap(){
 /* ---------- KHO BIỂU MẪU ---------- */
 function vForms(){
   var h = '<h1>Kho biểu mẫu</h1><p class="lead">Biểu mẫu gốc kèm Kế hoạch số 59-KH/ĐU và Công văn số 1270-CV/ĐU (Mẫu 01, 02A, 02B, 02C kèm Công văn số 961-CV/TU thay thế Mẫu 1, 2A, 2B, 2C; Mẫu ĐU-01, ĐU-03 cập nhật), giữ nguyên bản đã ban hành. Sử dụng thống nhất, không tự ý thay đổi bố cục, nội dung biểu mẫu.</p>';
-  h += '<input class="search" id="fq" placeholder="Tìm biểu mẫu (ví dụ: 02A, ĐU-04, nơi cư trú…)">';
+  h += '<div class="box kfbox"><label for="kfo"><b>Đồng chí là đối tượng nào?</b> Chọn để xem đúng các biểu mẫu mình phải dùng:</label><select id="kfo"><option value="">— Chọn đối tượng —</option><optgroup label="Tập thể">';
+  PROFILES.forEach(function(p){ if (p.grp === "tt") h += '<option value="'+p.id+'"'+(STATE.kf===p.id?' selected':'')+'>'+esc(p.name)+'</option>'; });
+  h += '</optgroup><optgroup label="Cá nhân">';
+  PROFILES.forEach(function(p){ if (p.grp === "cn") h += '<option value="'+p.id+'"'+(STATE.kf===p.id?' selected':'')+'>'+esc(p.name)+'</option>'; });
+  h += '</optgroup></select><div id="kfres">'+kfList(STATE.kf)+'</div></div>';
+  h += '<div class="sec">Toàn bộ biểu mẫu (mỗi mẫu ghi rõ đối tượng sử dụng)</div>';
+  h += '<input class="search" id="fq" placeholder="Tìm biểu mẫu (ví dụ: 02A, ĐU-04, phiếu biểu quyết, chi bộ ấp…)">';
   FORM_GROUPS.forEach(function(g){
     if (g.id === "g7" || g.id === "g8") return;
     h += '<div class="fg"><div class="sec">'+esc(g.name)+'</div><div class="list">';
-    for (var id in FORMS) if (FORMS[id].g.indexOf(g.id) >= 0) h += '<div class="fi" data-s="'+esc((FORMS[id].t+" "+FORMS[id].dl).toLowerCase())+'">'+formRow(id)+'</div>';
+    for (var id in FORMS) if (FORMS[id].g.indexOf(g.id) >= 0) h += '<div class="fi" data-s="'+esc((FORMS[id].t+" "+FORMS[id].dl+" "+(FORMS[id].u||"")).toLowerCase())+'">'+formRow(id, null, true)+'</div>';
     h += '</div></div>';
   });
   h += '<div class="fg"><div class="sec">Văn bản</div><div class="list">'; ["CV1270","CV961","CV961PL","KH59"].forEach(function(id){ h += '<div class="fi" data-s="'+esc((FORMS[id].t+" "+FORMS[id].dl+" van ban cong van ke hoach").toLowerCase())+'">'+formRow(id)+'</div>'; }); h += '</div></div>';
   h += '<p class="muted">Mẫu 8C, Mẫu 9 (biểu tổng hợp) đặt tại mục <a href="#bxdd">Dành cho Ban Xây dựng Đảng</a>. Mẫu 8A, Mẫu 8B áp dụng cho cơ quan, đơn vị cấp thành phố, Đảng ủy xã không sử dụng.</p>';
   return h;
+}
+function kfList(pid){
+  if (!pid) return '';
+  var p = prof(pid); if (!p) return '';
+  var h = '<div class="list" style="margin-top:10px">';
+  p.forms.forEach(function(f){ h += formRow(f[0], f[1]); });
+  if (p.formsDV) h += formRow("M2A","Đảng viên giữ chức vụ lãnh đạo, quản lý (kèm sheet 6A)")+formRow("M2B","Đảng viên không giữ chức vụ lãnh đạo, quản lý (kèm sheet 6B)")+formRow("M2C","Đảng viên không làm việc trong hệ thống chính trị (kèm sheet 6C)");
+  if (p.simple) { var seen = {}; AP_VIEC.forEach(function(v){ v.f.forEach(function(id){ if (!seen[id]) { seen[id] = 1; h += formRow(id, "Việc: "+v.t); } }); });
+    h += formRow("M2A","Đảng viên: bí thư, phó bí thư chi bộ ấp; trưởng ấp; trưởng ban công tác Mặt trận ấp (kèm sheet 6A)")+formRow("M2C","Đảng viên còn lại của chi bộ ấp (kèm sheet 6C)"); }
+  if (p.simpleDv) h += formRow("M2A","Nếu là bí thư, phó bí thư chi bộ ấp; trưởng ấp; trưởng ban công tác Mặt trận ấp")+formRow("M2C","Đảng viên còn lại của chi bộ ấp")+formRow("P56","Sheet 6A (nếu dùng Mẫu 02A) hoặc 6C (nếu dùng Mẫu 02C)")+formRow("M7","Ghi ngắn gọn 3 – 5 việc chính đã làm trong năm");
+  if (h === '<div class="list" style="margin-top:10px">') h += '<div class="box muted">Thực hiện theo quy định của pháp luật, của ngành; xem hướng dẫn đầy đủ bên dưới.</div>';
+  return h + '</div><p class="muted" style="margin:8px 2px 0"><a href="#p/'+p.id+'">Xem hướng dẫn đầy đủ: các bước, hồ sơ, thời hạn của '+esc(p.name)+'</a></p>';
+}
+
+/* ---------- MẪU PHIẾU BIỂU QUYẾT ---------- */
+function vPbq(sel){
+  var h = '<h1>Mẫu phiếu biểu quyết xếp loại chất lượng năm 2026</h1><p class="lead">Mẫu tham khảo của Ban Xây dựng Đảng Đảng ủy xã (PBQ-01 đến PBQ-05) và file Excel in phiếu, kiểm phiếu – giúp việc bỏ phiếu kín xếp loại ở chi bộ, đảng ủy trực thuộc, tập thể lãnh đạo, quản lý được chặt chẽ, thống nhất; kết quả ghi vào Biên bản Mẫu ĐU-02 và danh sách Mẫu ĐU-03.</p>';
+  var d = null; PBQ_DT.forEach(function(x){ if (x.id === sel) d = x; });
+  if (d) {
+    h += '<div class="box pbqsel" style="border-left:6px solid '+d.c+'"><div class="muted" style="margin-bottom:2px">Đối tượng đã chọn</div><h2 style="margin:0 0 4px;color:'+d.c+'">'+esc(d.t)+'</h2><div class="muted">'+esc(d.s)+'</div>';
+    h += '<p style="margin:10px 0 4px"><b>Người biểu quyết:</b> '+md(d.ai)+'</p>';
+    h += '<div class="sec">Mẫu phiếu của đồng chí</div><div class="list">'; d.f.forEach(function(f){ h += formRow(f[0], f[1]); }); h += '</div>';
+    h += '<div class="sec">Thứ tự thực hiện</div><ol class="steps">'; d.buoc.forEach(function(x){ h += '<li>'+md(x)+'</li>'; }); h += '</ol>';
+    if (d.nt.length) { h += '<div class="note"><ul class="dots">'; d.nt.forEach(function(x){ h += '<li>'+md(x)+'</li>'; }); h += '</ul></div>'; }
+    h += '<p class="muted" style="margin:8px 0 0"><a href="#pbq">← Chọn đối tượng khác</a></p></div>';
+  }
+  h += '<h2>'+(d?'Đối tượng khác':'Đồng chí tổ chức biểu quyết ở đâu?')+'</h2><div class="grid">';
+  PBQ_DT.forEach(function(x){ h += '<button class="card hero" style="border-left-color:'+x.c+(x.id===sel?';background:#fffbea':'')+'" onclick="go(\'pbq/'+x.id+'\')"><b>'+esc(x.t)+'</b><span>'+esc(x.s)+'</span></button>'; });
+  h += '</div>';
+  h += '<h2><span class="no">1</span>Phiếu có chữ ký xác nhận thay con dấu</h2><div class="note red"><ul class="dots">'; PBQ_KY.forEach(function(x){ h += '<li>'+md(x)+'</li>'; }); h += '</ul></div>';
+  h += '<h2><span class="no">2</span>Chuẩn bị phiếu, thảo luận, lưu trữ</h2><div class="box"><ul class="dots">'; PBQ_CB.forEach(function(x){ h += '<li>'+md(x)+'</li>'; }); h += '</ul></div>';
+  h += '<h2><span class="no">3</span>Phiếu hợp lệ và cách xác định kết quả</h2><div class="box"><ul class="dots">'; PBQ_HL.forEach(function(x){ h += '<li>'+md(x)+'</li>'; }); h += '</ul></div>';
+  h += '<h2><span class="no">4</span>Máy tính kết quả bỏ phiếu (cho từng tập thể, cá nhân)</h2><div class="box"><div class="calc">'+
+    '<div><label>Tổng số phiếu hợp lệ</label><input id="q0" type="number" min="0" inputmode="numeric" oninput="calcPbq()"></div>'+
+    '<div><label>Số phiếu “Hoàn thành xuất sắc nhiệm vụ”</label><input id="q1" type="number" min="0" inputmode="numeric" oninput="calcPbq()"></div>'+
+    '<div><label>Số phiếu “Hoàn thành tốt nhiệm vụ”</label><input id="q2" type="number" min="0" inputmode="numeric" oninput="calcPbq()"></div>'+
+    '<div><label>Số phiếu “Hoàn thành nhiệm vụ”</label><input id="q3" type="number" min="0" inputmode="numeric" oninput="calcPbq()"></div>'+
+    '<div><label>Số phiếu “Không hoàn thành nhiệm vụ”</label><input id="q4" type="number" min="0" inputmode="numeric" oninput="calcPbq()"></div>'+
+    '</div><div id="qres" class="res" style="display:none"></div></div>';
+  h += '<h2><span class="no">5</span>Tải mẫu phiếu</h2><div class="list">'+formRow("PBQBO")+formRow("PBQ01",null,true)+formRow("PBQ02",null,true)+formRow("PBQ03",null,true)+formRow("PBQ04",null,true)+formRow("PBQ05",null,true)+formRow("PBQXL")+formRow("DU02")+'</div>';
+  return h + '<p class="muted">Căn cứ: Điều 5 Điều lệ Đảng; Bước 2, Điểm 4.2, Mục 4, Phần II Hướng dẫn số 01-HD/BTCTU; Điều 12 Quy định số 04-QĐ/ĐU; Tiết 6.3, 6.4, Khoản 6, Mục IV Kế hoạch số 59-KH/ĐU; Công văn số 1270-CV/ĐU. Các mẫu phiếu là tài liệu tham khảo; chi bộ, đơn vị được thêm, bớt dòng cho phù hợp.</p>';
+}
+window.calcPbq = function(){ calcPbq(); };
+function calcPbq(){
+  var g = function(i){ var v = parseInt(document.getElementById("q"+i).value, 10); return isNaN(v) ? 0 : v; };
+  var n = g(0), a = [g(1), g(2), g(3), g(4)], r = document.getElementById("qres");
+  var L = ["Hoàn thành xuất sắc nhiệm vụ", "Hoàn thành tốt nhiệm vụ", "Hoàn thành nhiệm vụ", "Không hoàn thành nhiệm vụ"];
+  if (!n) { r.style.display = "none"; return; }
+  r.style.display = "block";
+  var s = a[0]+a[1]+a[2]+a[3];
+  if (s > n) { r.style.background = "#fdeeee"; r.innerHTML = "Tổng số phiếu 04 mức ("+s+") lớn hơn số phiếu hợp lệ ("+n+") – đề nghị kiểm lại."; return; }
+  var pc = function(x){ return (Math.round(x*10000/n)/100).toString().replace(".", ",") + "%"; };
+  var cum = 0, lv = "", tb = '<table class="tbl" style="margin-top:6px"><tr><th>Mức</th><th>Số phiếu</th><th>Tỷ lệ</th><th>Cộng dồn</th></tr>';
+  for (var i = 0; i < 4; i++) { cum += a[i]; if (!lv && cum*2 > n) lv = L[i]; tb += '<tr><td>'+L[i]+'</td><td>'+a[i]+'</td><td>'+pc(a[i])+'</td><td>'+cum+' ('+pc(cum)+')</td></tr>'; }
+  tb += '</table>';
+  r.style.background = lv ? "#e7f4ea" : "#fdf1df";
+  r.innerHTML = (lv ? 'Mức theo kết quả bỏ phiếu: <b>'+lv+'</b>' : 'Không mức nào có số phiếu cộng dồn trên 50% số phiếu hợp lệ – báo cáo cấp ủy xem xét.') + tb +
+    '<div class="muted" style="font-weight:400;margin-top:4px">Kết quả bỏ phiếu là cơ sở để đề xuất; mức đề xuất còn phải bảo đảm điểm số, điều kiện và tỷ lệ.'+(s < n ? ' Có '+(n-s)+' phiếu hợp lệ không được tính ý kiến đối với dòng này (không đánh dấu hoặc đánh dấu từ 02 ô).' : '')+'</div>';
 }
 
 /* ---------- HỒ SƠ ---------- */
@@ -4953,6 +5157,7 @@ function bind(){
   });
   var x1 = document.getElementById("x1"); if (x1) ["x1","x2","x3","x4"].forEach(function(id){ document.getElementById(id).oninput = calcXs; }), ["x5","x6"].forEach(function(id){ document.getElementById(id).onchange = calcXs; });
   var c1 = document.getElementById("c1"); if (c1) { c1.oninput = calcScore; document.getElementById("c2").oninput = calcScore; document.getElementById("r1").oninput = calcRatio; document.getElementById("r2").oninput = calcRatio; }
+  var kfo = document.getElementById("kfo"); if (kfo) kfo.onchange = function(){ STATE.kf = kfo.value; document.getElementById("kfres").innerHTML = kfList(STATE.kf); bind(); };
   var fq = document.getElementById("fq");
   if (fq) fq.oninput = function(){ var q = fold(fq.value.trim()); Array.prototype.forEach.call(APP.querySelectorAll('.fi'), function(x){ x.style.display = !q || fold(x.getAttribute("data-s")).indexOf(q) >= 0 ? "" : "none"; }); };
   var qq = document.getElementById("qq");
